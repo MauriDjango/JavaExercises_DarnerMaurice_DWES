@@ -1,16 +1,11 @@
 package com.example;
 
-import taller.exercises.basicexercises.BasicExercise;
-import taller.exercises.basicexercises.Exercise1;
-import taller.exercises.basicexercises.Exercise3;
-import taller.exercises.basicexercises.Exercise5;
-import taller.main.Main;
+import main.Main;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class BasicExercisesTest {
 
-    Main testMain = new Main();
+public class BasicExercisesTest {
 
     @Test
     public void testEjercicio1() {
