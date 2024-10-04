@@ -1,7 +1,5 @@
 # JavaExercises_DarnerMaurice_DW
 
-# Java Exercises - Darner Maurice DW
-
 ### Ejercicios de Entrada/Salida desde teclado y consola
 
 ---
@@ -41,7 +39,7 @@ promocionales pueden ser `nopro`, `mitad`, `meno5` o `5porc` que significan resp
 aplica promoción, el precio se reduce a la mitad, se descuentan 5 euros o se descuenta el 5%.
 
 El ejercicio se da por bueno si se muestran los valores correctos, aunque los números no estén tabulados.
-
+git 
 ---
 
 # Java Ejercicios Switch
