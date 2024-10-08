@@ -1,7 +1,6 @@
 package exercises.ex_02;
 
 import ui.IO;
-import java.util.ArrayList;
 
 //TODO should validate correct hours and minutes
 public class Exercise11 extends IfSwitchExercises {
@@ -23,6 +22,6 @@ public class Exercise11 extends IfSwitchExercises {
     }
 
     private int getSecsToMidnight(int hour, int minute) {
-        return (((24-hour)*60+(60-minute))*60);
+        return (((23-hour)*60+(60-minute))*60);
     }
 }

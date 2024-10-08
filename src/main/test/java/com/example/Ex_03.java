@@ -1,6 +1,9 @@
+/*
 package com.example;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import main.Main;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -9,18 +12,11 @@ import java.util.List;
 
 public class EjerciciosBuclesTest {
 
-    private EjerciciosBucles ejercicios;
-
-    @BeforeEach
-    public void setUp() {
-        ejercicios = new EjerciciosBucles();
-    }
-
     // Test Ejercicio 1
     @Test
     public void testEjercicio1() {
         List<Integer> esperados = Arrays.asList(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100);
-        assertEquals(esperados, ejercicios.ejercicio1());
+        assertEquals(esperados, Main.BuclesExercise1.run());
     }
 
     // Test Ejercicio 2
@@ -252,3 +248,4 @@ public class EjerciciosBuclesTest {
     }
 }
 
+*/

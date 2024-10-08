@@ -2,6 +2,7 @@ package exercises.ex_02;
 
 import ui.IO;
 
+
 public class Exercise21 extends IfSwitchExercises {
     String exerciseName = "Exercise 21";
     String description = """

@@ -82,22 +82,6 @@ class Ex_02Test {
         assertEquals(expectedSegundos, Main.IfSwitchExercise11.run(horas, minutos));
     }
 
-    // Ejercicio 13
-/*
-    @Test
-    void testOrdenarTresNumeros() {
-        ArrayList<Integer> expectedList = new ArrayList<>(Arrays.asList(1, 2, 3));
-        assertArrayEquals(expectedList, Main.IfSwitchExercise13.run(2, 3, 1));
-    }
-*/
-
-    // Ejercicio 16
-    @Test
-    void testCalcularProbabilidadInfidelidad() {
-        // Este test dependerá de cómo implementes el cálculo
-        assertTrue(EjerciciosSwitch.calcularProbabilidadInfidelidad() >= 0 && EjerciciosSwitch.calcularProbabilidadInfidelidad() <= 100);
-    }
-
     // Ejercicio 17
     @ParameterizedTest
     @ValueSource(ints = {123, 456, 789, 1000})

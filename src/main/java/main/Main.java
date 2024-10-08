@@ -34,4 +34,6 @@ public class Main {
   public static exercises.ex_02.Exercise19 IfSwitchExercise19 = new exercises.ex_02.Exercise19(consoleio);
   public static exercises.ex_02.Exercise21 IfSwitchExercise21 = new exercises.ex_02.Exercise21(consoleio);
 
+  public static exercises.ex_03.Exercise1 BuclesExercise1 = new exercises.ex_03.Exercise1(consoleio);
+
 }
